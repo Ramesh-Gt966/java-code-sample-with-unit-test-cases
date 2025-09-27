@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-username/BasicWebTest.git'
+                git 'https://github.com/Ramesh-Gt966/java-code-sample-with-unit-test-cases.git'
             }
         }
 
