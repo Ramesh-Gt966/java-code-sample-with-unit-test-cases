@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Jenkins automatically checks out the repo, but this ensures clarity
-                git url: 'https://github.com/Ramesh-Gt966/java-code-sample-with-unit-test-cases.git', branch: 'main'
+                git url: 'git url: 'https://github.com/Ramesh-Gt966/java-code-sample-with-unit-test-cases.git', branch: 'main', branch: 'main'
             }
         }
 
